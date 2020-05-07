@@ -1,3 +1,5 @@
+from sys import argv
+
 
 def retira_formatacao(num_cpf):
     num_cpf = num_cpf.replace('.', '')
@@ -51,5 +53,8 @@ def valida_cpf(num_cpf):
 
 
 if __name__ == '__main__':
-    check = valida_cpf("735.412.830-92")
-    print(check)
+    if len(argv) == 2:
+        check = valida_cpf(argv[1])
+        print(check)
+    else:
+        print('Please, Enter a CPF to Validate')
