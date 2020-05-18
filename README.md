@@ -18,22 +18,28 @@ this function checks if the first digit(10th number) of a cpf is right
 
 ex:
 
->>> \>>> check_first_digit('12345678909')\nTrue
+>>> \>>> check_first_digit('12345678909')
+True
 
->>> \>>> check_first_digit('12345678908')\nTrue
+>>> \>>> check_first_digit('12345678908')
+True
 
->>> \>>> check_first_digit('12345678919')\nFalse
+>>> \>>> check_first_digit('12345678919')
+False
 
 ### check_second_digit
 this function checks if the second digit(11th number) of a cpf is right
 
 ex:
 
->>> \>>> check_first_digit(12345678909)\nTrue
+>>> \>>> check_first_digit(12345678909)
+True
 
->>> \>>> check_first_digit(12345678941)\nTrue
+>>> \>>> check_first_digit(12345678941)
+True
 
->>> \>>> check_first_digit(12345678904)\nFalse
+>>> \>>> check_first_digit(12345678904)
+False
 
 ### valida_cpf
 this functions checks if a given cpf is valid.
