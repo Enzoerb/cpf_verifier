@@ -9,13 +9,13 @@ this function removes the '.' and '-' from a string, returning it
 
 ex:
 
->>> \>>> retira_formatacao('123.456.789-01')
+> \>>> retira_formatacao('123.456.789-01')
 
-12345678901
+> 12345678901
 
->>> \>>> retira_formatacao('1.2-3.4-5.67.890-1')
+> \>>> retira_formatacao('1.2-3.4-5.67.890-1')
 
-12345678901
+> 12345678901
 
 ### check_first_digit
 this function checks if the first digit(10th number) of a cpf is right
